@@ -23,6 +23,11 @@
     margin: 0 auto;
   }
 
+
+  html {
+  scroll-behavior: smooth;
+ }
+
   
 /* -------------------Header strat----------------------------- */
 
@@ -73,6 +78,11 @@
     text-decoration: none;
   }
 
+  a:hover {
+    color: #d7bcbc;
+    transition: 1s;
+  }
+
   .login {
     width: 103px;
     height: 41px;
@@ -82,6 +92,7 @@
     padding: 0;
     border: none;
     text-align: center;
+    cursor:pointer;
   }
 
   .header-flex {
@@ -150,13 +161,13 @@ margin-bottom: 11px;
   font-weight: 500;
   font-size: 24px;
   line-height: 32px;
-  width: 228px;
+  width: 347px;
   height: 59px;
   background: #0D606F;
   box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
   border-radius: 10px;
   margin: 18px;
-  padding: 13.5px 32.5px;
+  cursor:pointer;
 }
 
 
@@ -325,7 +336,7 @@ margin-bottom: 11px;
   text-align:center;
   border: none;
   width: 228px;
-  height: 61px;
+  height: 59px;
   font-family: 'Red Hat Text';
   font-style: normal;
   font-weight: 500;
@@ -337,11 +348,34 @@ margin-bottom: 11px;
   border-radius: 10px;
   border: none;
   margin-top: 40px;
+  cursor:pointer;
+  padding-right: 2px;
 }
 
-.find img, .see img {
-  margin-right: 7px;
-  margin-top: 9px;
+.find:hover, .see:hover, .login:hover, .form-button:hover {
+  background: #0e6f80;
+  transition: 0.5s;
+  cursor:pointer;
+}
+
+.find:active, .see:active, .login:active, .form-button:active {
+  background: #082f36;
+}
+
+.find img {
+display: block;
+margin-right: 9px;
+margin-top: 8px;
+}
+
+.see img {
+  display: block;
+  margin-right: 9px;
+  margin-top: 8px;
+} 
+
+.see {
+  padding-right: 8px;
 }
 
 
@@ -445,9 +479,6 @@ background-image: url(/img/Mountains.jpg);
   height: 1322px;
 }
 
-.see p {
-  margin-right: 5px;
-}
 
 
 
@@ -483,6 +514,8 @@ background-image: url(/img/Mountains.jpg);
   flex-shrink: 0;
   width: 140.96px;
   height: 33.65px;
+  list-style-type: none;
+  margin-top: 4px;
 }
 
 
@@ -490,6 +523,11 @@ background-image: url(/img/Mountains.jpg);
 margin-top: 8px;
 }
 
+.social-img:hover {
+opacity: 0.6;
+transition: 1s;
+}
 
-/* ----------------------------------------Footer end-------------------------------------- */
+
+/* ----------------------------------------Footer start-------------------------------------- */
 

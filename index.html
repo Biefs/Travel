@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,6 +14,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Magra:wght@400;700&family=Red+Hat+Text:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Roboto:wght@100;300;500;900&display=swap" rel="stylesheet">
     <title>Travel</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="/img/Vector.svg">
 </head>
 <body>
     <div class="root">
@@ -39,15 +40,15 @@
         <main class="main">
             <div class="wrapper">
                 <section class="preview">
-                    <h1 class="preview-h">Explore the beauty of the World</h1>
+                    <h1 class="preview-h"><a id="preview"></a>Explore the beauty of the World</h1>
                     <p class="preview-p">Receive personalized recommendations for countries, hotels, activities and more</p>
-                    <form class="preview-form" action="action.php">
+                    <div class="preview-form">
                         <input class="form-search" type="search"  placeholder="What would you like to do?" >
-                        <input class="form-button" type="submit"  value="Start Planning" >
-                    </form>
+                        <button class="form-button">Start Planning</button>
+                </div>
                 </section>
                 <section class="steps">
-                    <h2 class="steps-h">3 STEPS TO THE PERFECT TRIP</h2>
+                    <h2 class="steps-h"><a id="steps"></a>3 STEPS TO THE PERFECT TRIP</h2>
                     <div class="steps-block">
                         <div class="steps-item">  
                             <div class="steps-icon">
@@ -70,7 +71,7 @@
                     </div>
                 </section>
                 <section class="destinations">
-                    <h2>POPULAR DESTINATIONS</h2>
+                    <h2><a id="destinations"></a>POPULAR DESTINATIONS</h2>
                     <div class="dest-block">
                         <div class="spain">  
                             <p class="dest-p">SPAIN</p>                      
@@ -89,13 +90,13 @@
                     </div>
                     <button class="find">
                         <img src="/img/arrow.svg" alt="arrow">
-                        <p>Find More</p>   
+                        Find More 
                     </button>
                 </section>
             </div>
                 <section class="stories">
                     <div class="stories-wrapper">
-                        <h2>TRAVEL STORIES</h2>
+                        <h2><a id="stories"></a>TRAVEL STORIES</h2>
                         <div class="stories-block">
                             <div class="stories-item">
                                 <div class="stories-thailand">
@@ -154,7 +155,7 @@
                         </div>   
                         <button class="see">
                             <img src="/img/arrow.svg" alt="arrow" class="see-arrow">
-                            <p>See More</p>
+                            See More
                         </button>
                     </div>    
                 </section>
@@ -162,11 +163,11 @@
         <footer class="footer">
                 <div class="footer-block">
                     <p>All Rights Reserved &copy; Travel Portal</p>
-                    <div class="social">
-                        <img src="/img/inst.svg" alt="inst">
-                        <img src="/img/youtube.svg" alt="youtube">
-                        <img src="/img/twitter.svg" alt="twitter">
-                    </div>
+                    <ul class="social">
+                        <li><a href="https://github.com/Biefs" target="_blank"><img class="social-img" src="/img/inst.svg" alt="inst"></a></li>
+                        <li><a href="https://www.youtube.com/c/RollingScopesSchool?app=desktop" target="_blank"><img class="social-img" src="/img/youtube.svg" alt="youtube"></a></li>
+                        <li><a href="https://rs.school/js-stage0/" target="_blank"><img class="social-img" src="/img/twitter.svg" alt="twitter"></a></li>
+                    </ul>
                 </div>
         </footer>
     </div>
