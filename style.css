@@ -10,7 +10,9 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-image: url(./img/background-1.jpg);
+    align-items: center;
+    background-image: url(./img/background-1.jpg), url(/img/background-2.jpg);
+    background-position: top, bottom;
     background-repeat: no-repeat;
     overflow: hidden;
   } 
@@ -323,7 +325,7 @@ margin-bottom: 11px;
   text-align:center;
   border: none;
   width: 228px;
-  height: 59px;
+  height: 61px;
   font-family: 'Red Hat Text';
   font-style: normal;
   font-weight: 500;
@@ -348,10 +350,10 @@ margin-bottom: 11px;
 
 /* ---------------------------------Section stories start-------------------------------------- */
 
-/* .stories-block {
-  background-image: url(/img/background-2.jpg);
-  width: 100%;
-} */
+.stories-background {
+  background: rgba(255, 255, 255, 0.7);
+  width: 1440px;
+}
 
 .stories-text {
   display: block;
@@ -414,10 +416,13 @@ background-image: url(/img/Mountains.jpg);
 
 
 .stories {
+  width: 1440px;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 80px;
+  padding-bottom: 41.65px;
+  background: rgba(255, 255, 255, 0.7);
 }
 
 
@@ -427,6 +432,7 @@ background-image: url(/img/Mountains.jpg);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: center;
 }
 
 
@@ -442,3 +448,48 @@ background-image: url(/img/Mountains.jpg);
 .see p {
   margin-right: 5px;
 }
+
+
+
+/* ---------------------------------Section stories end-------------------------------------- */
+
+/* ----------------------------------------Footer start-------------------------------------- */
+
+.footer {
+  width: 1200px;
+  display: flex;
+  justify-content:flex-end;
+  font-family: 'Red Hat Text';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+
+.footer-block {
+  margin: 13.35px 0;
+  width: 728.96px;
+  height: 33.65px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.social {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+  width: 140.96px;
+  height: 33.65px;
+}
+
+
+.footer-block p {
+margin-top: 8px;
+}
+
+
+/* ----------------------------------------Footer end-------------------------------------- */
+
