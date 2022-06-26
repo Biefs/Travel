@@ -316,7 +316,7 @@ margin-bottom: 11px;
 
 
 
-.find {
+.find, .see {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -337,10 +337,108 @@ margin-bottom: 11px;
   margin-top: 40px;
 }
 
-.find img {
+.find img, .see img {
   margin-right: 7px;
   margin-top: 9px;
 }
 
 
 
+/* ----------------------------  Section destinations end-------------------------------------- */
+
+/* ---------------------------------Section stories start-------------------------------------- */
+
+/* .stories-block {
+  background-image: url(/img/background-2.jpg);
+  width: 100%;
+} */
+
+.stories-text {
+  display: block;
+  width: 760px;
+  height: 184px;
+  font-family: 'Aleo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #0D606F;
+}
+
+span {
+  font-weight: 700;
+  text-decoration-line: underline;
+}
+
+.stories-text p {
+  margin-top: 24px;
+}
+
+h3 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 42px;
+}
+
+.stories-thailand, .stories-utah, 
+.stories-journey, .stories-mountains {
+  filter: drop-shadow(0px 4px 4px #0D606F);
+  border-radius: 16px;
+  width: 400px;
+  height: 250px;
+}
+
+.stories-thailand {
+background-image: url(/img/Thailand.jpg);
+}
+
+.stories-utah {
+background-image: url(/img/Utah.jpg);
+}
+
+.stories-journey {
+background-image: url(/img/journey.jpg);
+}
+
+.stories-mountains {
+background-image: url(/img/Mountains.jpg);
+}
+
+
+.stories-item {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.stories {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+}
+
+
+.stories-block {
+  margin-top: 80px;
+  height: 1120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.stories-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 1200px;
+  height: 1322px;
+}
+
+.see p {
+  margin-right: 5px;
+}
