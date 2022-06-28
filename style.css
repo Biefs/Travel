@@ -271,21 +271,21 @@ margin-bottom: 11px;
 .spain {
   width: 800px;
   height: 800px;
-  background-image: url(/img/Spain.jpg);
+  background-image: url(./img/Spain.jpg);
   border-radius: 16px;
 }
 
 .usa {
   width: 800px;
   height: 800px;
-  background-image: url(/img/USA.jpg);
+  background-image: url(./img/USA.jpg);
   border-radius: 16px;
 }
 
 .japan {
   width: 800px;
   height: 800px;
-  background-image: url(/img/Japan.jpg);
+  background-image: url(./img/Japan.jpg);
   border-radius: 16px;
 }
 
@@ -426,19 +426,19 @@ h3 {
 }
 
 .stories-thailand {
-background-image: url(/img/Thailand.jpg);
+background-image: url(./img/Thailand.jpg);
 }
 
 .stories-utah {
-background-image: url(/img/Utah.jpg);
+background-image: url(./img/Utah.jpg);
 }
 
 .stories-journey {
-background-image: url(/img/journey.jpg);
+background-image: url(./img/journey.jpg);
 }
 
 .stories-mountains {
-background-image: url(/img/Mountains.jpg);
+background-image: url(./img/Mountains.jpg);
 }
 
 
