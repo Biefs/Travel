@@ -11,7 +11,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    background-image: url(./img/background-1.jpg), url(/img/background-2.jpg);
+    background-image: url(/img/background-1.jpg), url(/img/background-2.jpg);
     background-position: top, bottom;
     background-repeat: no-repeat;
     overflow: hidden;
